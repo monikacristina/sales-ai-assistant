@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Sales Analytics Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>AI Sales Analytics Assistant</h1>
+            <p>Ask questions about your sales data in natural language.</p>
+        </header>
+
+        <main>
+            <div id="chat-box">
+                <div class="message bot">
+                    Hello! I'm your AI Sales Assistant.
+                    Ask me anything about your sales performance!
+                </div>
+            </div>
+
+            <form id="chat-form">
+                <input
+                    type="text"
+                    id="question"
+                    placeholder="Ask a question about sales..."
+                    required
+                >
+                <button type="submit" id="send-button">Send</button>
+            </form>
+        </main>
+
+        <footer>
+            Powered by Gemini AI, Python and SQLite
+        </footer>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
